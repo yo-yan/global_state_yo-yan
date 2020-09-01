@@ -7,7 +7,8 @@ const Header = () => {
         <AppBar position="static">
             <Toolbar>
                 <h3>GlobalState</h3>
-                <Link to='secondpage'>TopSecond</Link>
+                <Link to='/'>Top</Link>
+                <Link to='secondpage'>Second</Link>
             </Toolbar>
         </AppBar>
     );
