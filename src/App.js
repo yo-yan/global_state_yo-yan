@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path='/' component={TopPage} />
-        <Route exact path='/secondpage' pages={SecondPage} />
+        <Route exact path='/secondpage' component={SecondPage} />
       </Switch>
     </Router>
   );
