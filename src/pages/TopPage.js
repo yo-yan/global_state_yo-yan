@@ -1,8 +1,8 @@
 import React, { useEffect, useContext } from 'react'
-import { fetchGetData } from '../apis/index'
-import { Store } from '../store/index'
-import { GET_DATA } from '../actions/index'
-import Card from '../components/Card'
+import { fetchGetData } from '../apis/index';
+import { Store } from '../store/index';
+import { GET_DATA } from '../actions/index';
+import Card from '../components/Card';
 
 const TopPage = () => {
     const { globalState, setGlobalState } = useContext(Store)
@@ -30,4 +30,5 @@ const TopPage = () => {
         </div>
     )
 }
+
 export default TopPage

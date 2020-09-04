@@ -1,7 +1,9 @@
-import React, { useReducer, createContext } from 'react'
-import reducer from '../reducers/index'
+import React, { useReducer, createContext } from 'react';
+import reducer from '../reducers/index';
+
 const initialState = {
-    user_data: []
+    user_data: [],
+    comment_todo: []
 }
 
 export const Store = createContext({

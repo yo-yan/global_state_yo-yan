@@ -1,4 +1,4 @@
-import axios from 'axios'
+import axios from 'axios';
 
 const API = axios.create({
     baseURL: 'https://jsonplaceholder.typicode.com'
@@ -7,6 +7,7 @@ const API = axios.create({
 export const fetchGetData = async () => {
     return await API.get('/users')
 }
+
 export const fetchGetTodoData = async () => {
     return await API.get('/comments')
 }
